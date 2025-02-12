@@ -1,0 +1,15 @@
+# ignore all .a files
+*.env
+
+#ignore node_modules
+node_modules
+
+#ignore bin, used for temp files and json analysis
+bin
+
+#ignore package and package lock
+package.json
+package-lock.json
+
+#ignore tesseract trained data
+eng.traineddata
